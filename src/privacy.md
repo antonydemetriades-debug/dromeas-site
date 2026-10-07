@@ -74,8 +74,10 @@ These companies help run Dromeas. They may only use your data to provide their s
 |---|---|---|---|
 | Supabase | Our server, database and sign-in | Everything in sections 4 and 5 | EU (Frankfurt); Supabase is a US company |
 | Anthropic | The AI that understands newsboard and outlet-search words, and tags and groups headlines | The words you type for those two features; never your app number, name or email | United States |
-| Resend | Sends the sign-in code email | Your email address and the email itself | United States |
+| Resend | Sends the sign-in code email, and our replies to your emails | Your email address and the email itself | United States |
 | Google | Continue with Google (only if you use it) | Your Google sign-in | EU and United States |
+| ImprovMX | Passes on emails you send to our addresses (privacy@, publishers@) to the inbox where we read them | Your email address and your message | United States |
+| Google (Gmail) | The inbox where we read and answer your emails | Your email address, your message and our reply | EU and United States |
 | GitHub | Our back office: reviewing nominations and the monthly topics report | Outlet names, websites and reasons from nominations; topic words and follower totals (no app numbers) | United States |
 
 **News outlets:** article pictures load straight from each outlet's servers, and "View full article" opens the outlet's own page in a browser tab inside Dromeas. The outlet then sees your internet address, and its own cookies and privacy policy apply.
