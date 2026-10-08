@@ -5,7 +5,7 @@ description: What information Dromeas News uses, why, where it goes and what you
 
 # Privacy policy
 
-*Version 1 · last updated {{updated}}*
+*Version 2 · last updated {{updated}}*
 
 This policy explains what information Dromeas News ("Dromeas") uses, why, where it goes and what you can do about it. We have tried to write it in plain language. Dromeas works without an account, and most of what it learns about you never leaves your phone.
 
@@ -18,7 +18,7 @@ For anything about your data, write to **[privacy@dromeasnews.com](mailto:privac
 ## 2. Dromeas in short
 
 - **No account needed.** You can use every feature without one. An account is optional and only keeps your newsboards and settings safe.
-- **No ads today, and no analytics or crash-reporting tools.** We plan to show ads later, to keep Dromeas free. Before any ad appears, we'll update this policy, tell you in the app, and ask for your consent where the law requires it (for example, for ads based on your data). We never sell your personal data.
+- **No ads today, and no outside analytics or crash-reporting tools.** We count how Dromeas is used ourselves, on our own server, with simple numbers and no names (section 4); you can switch it off. We plan to show ads later, to keep Dromeas free. Before any ad appears, we'll update this policy, tell you in the app, and ask for your consent where the law requires it (for example, for ads based on your data). We never sell your personal data.
 - **Your reading history stays on your phone.** It is recorded only if you say yes to "Learn from my reading", and it is never sent to us, not even with an account.
 - **One phone permission only:** internet access. No location, contacts, camera or microphone.
 - **Our server is in the EU** (Frankfurt, Germany).
@@ -36,7 +36,8 @@ These are kept in the app's own storage on your phone. We never receive them (un
     - the first days you opened the app, so bias notes and outlet suggestions stay quiet during your first two days;
     - the date bias notes come back after you tap "Show less";
     - whether you've opened an article yet, and when we last suggested an account (at most once a week);
-    - when the app last sent the follower count, so it is sent at most once a day;
+    - when the app last sent the follower count and the usage counts, so each is sent at most once a day;
+    - the usage numbers counted since the last send (see section 4), and whether "Share usage counts" is on;
     - the last headlines loaded, so Dromeas still shows news when you're offline.
 - **Pictures and logos already seen,** at most 300 for 3 days, so they show offline.
 
@@ -51,6 +52,7 @@ A few features need our server. None of them needs your name or email.
 - **Words you type in AI outlet search** go to our server and to Anthropic in the same way. The note of the time and your app number is deleted after 2 days.
 - **Outlet nominations:** the outlet's name and website, your optional reason, and your app number, so the app can show you the outcome. Your request is deleted 90 days after we decide; the outlet's name and website stay on our list of nominations.
 - **The follower count:** once a day the app tells our server which newsboard topics your phone follows, with your app number. The server keeps only a scrambled (hashed) form of the number, once per topic per month, and deletes it after 2 months. It tells us how many people follow each topic. No name or email is attached, and nobody can read it through the app.
+- **Usage counts** (Settings → **Share usage counts**, on unless you switch it off): once a day the app tells our server that your phone used Dromeas that day, with your app number, plus a few numbers counted since the last send: how many articles you opened in Dromeas and on outlets' sites, how many bias notes and outlet suggestions you saw and what you did with them (for example Neutralize bias, Add or No thanks), and how many bias questions you asked. The server keeps only a scrambled (hashed) form of the app number, one entry per day you used Dromeas, to count active phones and how many come back after 1, 7 and 30 days; these entries are deleted after 100 days. The numbers are added to daily totals with no app number. Never sent: which articles, headlines, outlets or topics, or your reading history. Switching it off stops it at once and deletes any numbers not yet sent.
 - **Your region, on first open:** our server uses your internet address to look up your country in a list kept on our own server (DB-IP), then returns only the broad area. The address isn't stored for this.
 - **News itself:** the app downloads headlines and stories from our server. These requests carry no account details. Like any website, our hosting keeps short technical logs that include internet addresses, for security and fault-finding. These logs are kept for 1 day on our current hosting plan (7 days on a paid plan).
 - **"Find out about bias on this story"** uses fixed questions and the outlets' headlines. Nothing about you is sent.
@@ -64,7 +66,7 @@ An account is optional. It keeps your newsboards and settings, so they come back
 - **Sign-in records:** our sign-in service keeps when you signed in and from which internet address, to keep your account secure.
 - **What the account keeps:** your newsboards and their settings, Front Page outlets, blocked and subscription outlets, display, appearance and sort choices, your answers to outlet suggestions, tips seen, your region area, your nominations list and random app number (so nominations follow you), and when each newsboard was last used (for the 30-day check). **Never your reading history.**
 
-**Delete my account** (Settings → Account) deletes the account and everything it keeps, straight away. Dromeas keeps working on your phone without an account. Two items aren't tied to the account, only to your random app number, so they end on their own schedule: nomination requests (90 days after our decision) and the follower count (2 months). See also [Deleting your account](/delete-account/).
+**Delete my account** (Settings → Account) deletes the account and everything it keeps, straight away. Dromeas keeps working on your phone without an account. Two items aren't tied to the account, only to your random app number, so they end on their own schedule: nomination requests (90 days after our decision), the follower count (2 months) and usage counts (100 days). See also [Deleting your account](/delete-account/).
 
 ## 6. Outside services we use
 
@@ -78,7 +80,7 @@ These companies help run Dromeas. They may only use your data to provide their s
 | Google | Continue with Google (only if you use it) | Your Google sign-in | EU and United States |
 | ImprovMX | Passes on emails you send to our addresses (privacy@, publishers@) to the inbox where we read them | Your email address and your message | United States |
 | Google (Gmail) | The inbox where we read and answer your emails | Your email address, your message and our reply | EU and United States |
-| GitHub | Our back office: reviewing nominations and the monthly topics report | Outlet names, websites and reasons from nominations; topic words and follower totals (no app numbers) | United States |
+| GitHub | Our back office: reviewing nominations and the monthly topics and usage reports | Outlet names, websites and reasons from nominations; topic words, follower totals and usage totals (no app numbers) | United States |
 
 **News outlets:** article pictures load straight from each outlet's servers, and "View full article" opens the outlet's own page in a browser tab inside Dromeas. The outlet then sees your internet address, and its own cookies and privacy policy apply.
 
@@ -97,6 +99,7 @@ EU law (the GDPR) lets us use personal data only for a stated reason, called a l
 | Daily limits per app number; sign-in and server security records | Our legitimate interest in preventing misuse and controlling AI costs |
 | Outlet nominations and telling you the outcome | Our legitimate interest in improving the outlet list |
 | The follower count | Our legitimate interest in deciding which topics to offer |
+| Usage counts | Our legitimate interest in understanding whether Dromeas is useful and improving it; you can switch it off in Settings |
 | Your region on first open | Our legitimate interest in suggesting relevant starting points |
 | Your reading history (on your phone only) | Your consent, which you can withdraw any time in Settings |
 
@@ -112,6 +115,8 @@ Where we rely on legitimate interest, you can object (section 9).
 | Words that started a shared topic (no app number) | As long as the topic exists |
 | Nomination requests (with app number) | 90 days after our decision |
 | Follower count (scrambled app number) | 2 months |
+| Usage counts: days used (scrambled app number) | 100 days |
+| Usage counts: daily totals (no app number) | As long as useful for comparing over time |
 | Account and what it keeps | Until you delete the account |
 | Sign-in records | 1 day on our current hosting plan (7 days on a paid plan); your active sign-in until you sign out |
 | Server technical logs | 1 day on our current hosting plan (7 days on a paid plan) |

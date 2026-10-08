@@ -11,7 +11,7 @@
 <body>
 <header><div class="wrap"><a href="/"><img src="/assets/logo-light.png" class="logo-light" alt="Dromeas News"><img src="/assets/logo-dark.png" class="logo-dark" alt="Dromeas News"></a><nav><a href="/">Home</a><a href="/privacy/" aria-current="page">Privacy</a><a href="/delete-account/">Delete account</a></nav></div></header>
 <main><div class="wrap"><h1 id="privacy-policy">Privacy policy</h1>
-<p><em>Version 1 · last updated 7 October 2026</em></p>
+<p><em>Version 2 · last updated 7 October 2026</em></p>
 <p>This policy explains what information Dromeas News (“Dromeas”) uses,
 why, where it goes and what you can do about it. We have tried to write
 it in plain language. Dromeas works without an account, and most of what
@@ -28,11 +28,13 @@ We answer within one month, as the law requires.</p>
 <li><strong>No account needed.</strong> You can use every feature
 without one. An account is optional and only keeps your newsboards and
 settings safe.</li>
-<li><strong>No ads today, and no analytics or crash-reporting
-tools.</strong> We plan to show ads later, to keep Dromeas free. Before
-any ad appears, we’ll update this policy, tell you in the app, and ask
-for your consent where the law requires it (for example, for ads based
-on your data). We never sell your personal data.</li>
+<li><strong>No ads today, and no outside analytics or crash-reporting
+tools.</strong> We count how Dromeas is used ourselves, on our own
+server, with simple numbers and no names (section 4); you can switch it
+off. We plan to show ads later, to keep Dromeas free. Before any ad
+appears, we’ll update this policy, tell you in the app, and ask for your
+consent where the law requires it (for example, for ads based on your
+data). We never sell your personal data.</li>
 <li><strong>Your reading history stays on your phone.</strong> It is
 recorded only if you say yes to “Learn from my reading”, and it is never
 sent to us, not even with an account.</li>
@@ -69,8 +71,10 @@ suggestions stay quiet during your first two days;</li>
 <li>the date bias notes come back after you tap “Show less”;</li>
 <li>whether you’ve opened an article yet, and when we last suggested an
 account (at most once a week);</li>
-<li>when the app last sent the follower count, so it is sent at most
-once a day;</li>
+<li>when the app last sent the follower count and the usage counts, so
+each is sent at most once a day;</li>
+<li>the usage numbers counted since the last send (see section 4), and
+whether “Share usage counts” is on;</li>
 <li>the last headlines loaded, so Dromeas still shows news when you’re
 offline.</li>
 </ul></li>
@@ -108,6 +112,20 @@ The server keeps only a scrambled (hashed) form of the number, once per
 topic per month, and deletes it after 2 months. It tells us how many
 people follow each topic. No name or email is attached, and nobody can
 read it through the app.</li>
+<li><strong>Usage counts</strong> (Settings → <strong>Share usage
+counts</strong>, on unless you switch it off): once a day the app tells
+our server that your phone used Dromeas that day, with your app number,
+plus a few numbers counted since the last send: how many articles you
+opened in Dromeas and on outlets’ sites, how many bias notes and outlet
+suggestions you saw and what you did with them (for example Neutralize
+bias, Add or No thanks), and how many bias questions you asked. The
+server keeps only a scrambled (hashed) form of the app number, one entry
+per day you used Dromeas, to count active phones and how many come back
+after 1, 7 and 30 days; these entries are deleted after 100 days. The
+numbers are added to daily totals with no app number. Never sent: which
+articles, headlines, outlets or topics, or your reading history.
+Switching it off stops it at once and deletes any numbers not yet
+sent.</li>
 <li><strong>Your region, on first open:</strong> our server uses your
 internet address to look up your country in a list kept on our own
 server (DB-IP), then returns only the broad area. The address isn’t
@@ -143,9 +161,9 @@ nominations follow you), and when each newsboard was last used (for the
 account and everything it keeps, straight away. Dromeas keeps working on
 your phone without an account. Two items aren’t tied to the account,
 only to your random app number, so they end on their own schedule:
-nomination requests (90 days after our decision) and the follower count
-(2 months). See also <a href="/delete-account/">Deleting your
-account</a>.</p>
+nomination requests (90 days after our decision), the follower count (2
+months) and usage counts (100 days). See also <a
+href="/delete-account/">Deleting your account</a>.</p>
 <h2 id="outside-services-we-use">6. Outside services we use</h2>
 <p>These companies help run Dromeas. They may only use your data to
 provide their service to us.</p>
@@ -206,10 +224,10 @@ to the inbox where we read them</td>
 </tr>
 <tr class="odd">
 <td>GitHub</td>
-<td>Our back office: reviewing nominations and the monthly topics
-report</td>
-<td>Outlet names, websites and reasons from nominations; topic words and
-follower totals (no app numbers)</td>
+<td>Our back office: reviewing nominations and the monthly topics and
+usage reports</td>
+<td>Outlet names, websites and reasons from nominations; topic words,
+follower totals and usage totals (no app numbers)</td>
 <td>United States</td>
 </tr>
 </tbody>
@@ -265,10 +283,15 @@ costs</td>
 <td>Our legitimate interest in deciding which topics to offer</td>
 </tr>
 <tr class="even">
+<td>Usage counts</td>
+<td>Our legitimate interest in understanding whether Dromeas is useful
+and improving it; you can switch it off in Settings</td>
+</tr>
+<tr class="odd">
 <td>Your region on first open</td>
 <td>Our legitimate interest in suggesting relevant starting points</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Your reading history (on your phone only)</td>
 <td>Your consent, which you can withdraw any time in Settings</td>
 </tr>
@@ -312,6 +335,14 @@ uninstall</td>
 <tr class="even">
 <td>Follower count (scrambled app number)</td>
 <td>2 months</td>
+</tr>
+<tr class="odd">
+<td>Usage counts: days used (scrambled app number)</td>
+<td>100 days</td>
+</tr>
+<tr class="even">
+<td>Usage counts: daily totals (no app number)</td>
+<td>As long as useful for comparing over time</td>
 </tr>
 <tr class="odd">
 <td>Account and what it keeps</td>
