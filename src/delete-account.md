@@ -42,10 +42,9 @@ You don't have to delete your account to remove data:
 - **In the app:** delete a newsboard (the account forgets it too); change your Front Page, blocked and
   subscription outlets; **Settings → Clear my reading history** (kept on your phone only); switch off
   **Settings → Help improve Dromeas** (stops usage counts at once and deletes numbers not yet sent).
-- **By email:** write to **[privacy@dromeasnews.com](mailto:privacy@dromeasnews.com?subject=Delete%20some%20of%20my%20Dromeas%20data)**
-  and tell us what you'd like deleted (for example your nominations, the follower count or usage counts). Send it
-  from your account's email address, or include your random app number (it's in the file from
-  Settings → Account → Download my data). We'll delete it, keep the rest, and confirm by reply within one month at
-  the latest (usually within a few days).
+- **By email:** write to **[privacy@dromeasnews.com](mailto:privacy@dromeasnews.com?subject=Delete%20my%20app%20data)**
+  with your random app number (it's in the file from Settings → Account → Download my data) and ask us to delete the
+  data linked to it: your nominations, the follower count and usage counts. Your account and what it keeps stay as
+  they are. We'll confirm by reply within one month at the latest (usually within a few days).
 
 More details: [Privacy policy](/privacy/).
