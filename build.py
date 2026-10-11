@@ -2,7 +2,7 @@
 """Builds the static site from src/*.md (needs pandoc). Run: python3 build.py"""
 import datetime, pathlib, re, subprocess
 ROOT = pathlib.Path(__file__).parent
-UPDATED = "8 October 2026"   # the privacy policy's "last updated" date — change it when the policy changes
+UPDATED = "11 October 2026"   # the privacy policy's "last updated" date — change it when the policy changes
 PAGES = {"index": "", "privacy": "privacy/", "terms": "terms/", "delete-account": "delete-account/"}
 NAV = [("Home", "/"), ("Privacy", "/privacy/"), ("Terms", "/terms/"), ("Delete account", "/delete-account/")]
 
