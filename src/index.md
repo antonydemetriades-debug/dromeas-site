@@ -16,7 +16,10 @@ Dromeas never copies articles: it shows headlines and links to the outlet's own 
 
 <p class="sig">Stay informed, stay in control, stay ahead.</p>
 
-## Contact
+## Contact us
 
+- **Questions and feedback:** [contact@dromeasnews.com](mailto:contact@dromeasnews.com)
 - **Privacy and your data:** [privacy@dromeasnews.com](mailto:privacy@dromeasnews.com)
 - **Publishers:** to ask about how your headlines appear in Dromeas, or to have your outlet removed, write to [publishers@dromeasnews.com](mailto:publishers@dromeasnews.com). We act on removal requests promptly.
+
+More on our [Contact us page](/contact/).

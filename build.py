@@ -3,8 +3,8 @@
 import datetime, pathlib, re, subprocess
 ROOT = pathlib.Path(__file__).parent
 UPDATED = "11 October 2026"   # the privacy policy's "last updated" date — change it when the policy changes
-PAGES = {"index": "", "privacy": "privacy/", "terms": "terms/", "delete-account": "delete-account/"}
-NAV = [("Home", "/"), ("Privacy", "/privacy/"), ("Terms", "/terms/"), ("Delete account", "/delete-account/")]
+PAGES = {"index": "", "privacy": "privacy/", "terms": "terms/", "delete-account": "delete-account/", "contact": "contact/"}
+NAV = [("Home", "/"), ("Privacy", "/privacy/"), ("Terms", "/terms/"), ("Delete account", "/delete-account/"), ("Contact", "/contact/")]
 
 def front(text):
     m = re.match(r"---\n(.*?)\n---\n", text, re.S)
@@ -33,7 +33,7 @@ def page(name, out):
 <body>
 <header><div class="wrap"><a href="/"><img src="/assets/logo-light.png" class="logo-light" alt="Dromeas News"><img src="/assets/logo-dark.png" class="logo-dark" alt="Dromeas News"></a><nav>{nav}</nav></div></header>
 <main><div class="wrap">{hero}{html}</div></main>
-<footer><div class="wrap">© {year} Dromeas News · <a href="/privacy/">Privacy</a> · <a href="/terms/">Terms</a> · <a href="/delete-account/">Delete account</a> · <a href="mailto:privacy@dromeasnews.com">privacy@dromeasnews.com</a></div></footer>
+<footer><div class="wrap">© {year} Dromeas News · <a href="/privacy/">Privacy</a> · <a href="/terms/">Terms</a> · <a href="/delete-account/">Delete account</a> · <a href="/contact/">Contact us</a> · <a href="mailto:contact@dromeasnews.com">contact@dromeasnews.com</a></div></footer>
 </body>
 </html>
 """
